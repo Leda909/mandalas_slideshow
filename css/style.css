@@ -1,0 +1,141 @@
+  
+* {
+  padding:0; 
+  margin:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Arial;
+  background-image: url("../images/background.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+main {
+  width: 100%;
+  height: 588px;
+  margin-top: 20px;
+  /* border: 2px solid red; */
+}
+
+#left {
+  width:28%; 
+  float:left;
+  height:585px;
+  margin-left: 2.5%;
+  margin-right: 2%;
+  border: 10px solid pink;
+  background-color: lemonchiffon;
+  opacity: 0.7;
+}
+
+h1{
+  text-transform: uppercase;
+  font-family:"Jazz LET", fantasy;
+  text-align: center;
+  margin: 12px;
+  letter-spacing: 3.5px;
+  font-size: 43px;
+  color:#29746f;
+}
+
+P{
+  font-family:"Palatino", "URW Palladio L", serif;
+  text-align: justify;
+  margin: 0 25px;
+  font-size: 18px;
+  color:#29746f;
+}
+
+#title{
+  text-transform: uppercase;
+  font-family:"Georgia", serif;
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  font-size: 26px;
+  color:#29746f;
+}
+
+#middle {
+  float:left; 
+  width:64.8%;
+  margin-right: 2.5%;
+  height:585px;
+  margin-bottom: 30px;
+  /* border: 2px solid red; */
+}
+
+#ltext, #rtext{
+  float: left;
+  /* border: 2px solid red; */
+  height:57px;
+  width: 28%;
+}
+
+#middletext{
+  float: left;
+  /* border: 2px solid red; */
+  height:57px;
+  width: 44%;
+}
+
+#leftupmiddle, #rightupmiddle{
+  float: left;
+  /* border: 2px solid red; */
+  height:379px;
+  width: 28%;
+}
+
+
+#left-arrow{
+  width:30%;
+  height: 25%;
+  margin-top: 145px;
+  margin-right: 15px;
+  float: right;
+  cursor: pointer;
+}
+
+#right-arrow{
+  width:30%;
+  height: 25%;
+  margin-top: 145px;
+  margin-left: 15px;
+  float: left;
+  cursor: pointer;
+}
+
+#middleupmiddle{
+  float: left;
+  border: 5px solid pink;
+  height:378.5px;
+  width: 44%;
+}
+#mainimg{
+  width: 100%;
+  height: 376px;
+}
+.folder {
+  float: left;
+  border: 3px solid pink;
+  height:145px;
+  width: 16.66666%;
+  cursor: pointer;
+}
+
+.folder img{
+  width: 100%;
+  height: inherit;
+}
+
+#rightpic, #leftpic{
+  height:370px;
+  width: 20%;
+}
+
+  
