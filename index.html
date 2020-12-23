@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    <title>Mandalas Slideshow</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/mandalas.js"></script>
+    
+</head>
+
+<body onload="init();">       
+    <main>
+        <div id="left">
+            <h1>Mandalas</h1>
+            <p>A mandala is a spiritual and ritual symbol. There are various types of mandalas, but each built on a simetric structure and used for artistically and spiritually purposes as well.</p>
+            <p>The circle is the symbol of being whole and its' division and forms are the specialized meaning of them. Motives drawn in a specific order within the circle radiate joy, peace, harmony, tranquility and concentration.</p>
+            <h1 id="title" style="margin-top: 15px;"></h1>
+            <p id="text" style="margin-top: 20px;"></p>
+        </div> <!--End of left -->
+
+        <div id="middle">
+            <div>
+                <div id="ltext"></div>
+                <div id="middletext">
+                <p id="title" ></p>
+                </div>
+                <div id="rtext"></div>
+            </div><!---End of text-->
+            <div id="upmiddle">  
+                <div id="leftupmiddle"><img id="left-arrow"  onclick ="prevPic();" src="images/Back.png"></div>
+                <div id="middleupmiddle"><img id="mainimg" src="images/1.jpg"></div>
+                <div id="rightupmiddle"><img  id="right-arrow" onclick ="nextPic();"  src="images/Next.png"></div>
+            </div> <!---End of up middle-->
+            <div id="downmiddle">
+                <div class="folder thumbs" ><img src="images/1.JPG" id="1" onclick="changeImage(this)" onmouseover="previewImage(this);" onmouseout="revertImage(this)"></div>
+                <div class="folder thumbs"><img src="images/2.jpg" id="2" onclick="changeImage(this)" onmouseover="previewImage(this);" onmouseout="revertImage(this)"></div>
+                <div class="folder thumbs"><img src="images/3.jpg" id="3" onclick="changeImage(this)" onmouseover="previewImage(this);" onmouseout="revertImage(this)"></div>
+                <div class="folder thumbs"><img src="images/4.jpg" id="4" onclick="changeImage(this)" onmouseover="previewImage(this);" onmouseout="revertImage(this)"></div>
+                <div class="folder thumbs"><img src="images/5.jpg" id="5" onclick="changeImage(this)" onmouseover="previewImage(this);" onmouseout="revertImage(this)"></div>
+                <div class="folder thumbs"><img src="images/6.jpg" id="6" onclick="changeImage(this)" onmouseover="previewImage(this);" onmouseout="revertImage(this)"></div>
+            </div> <!---End of down middle-->                        
+        </div> <!--End of middle  -->
+    </main>   
+</body>
+</html> 
