@@ -81,7 +81,7 @@ function changeImage(currentImg){
 
 function previewImage(currentImg){
 	// the image src is set to the value passed in new
-	mainImage.src = "images/" + currentImg.id + ".JPG";
+	mainImage.src = "images/" + currentImg.id + ".jpg";
 	currentImg.style.opacity = "1"
 //	currentImg.style.border ="2px solid red"
 
@@ -118,7 +118,7 @@ if (currentImg.id == "1"){
 
 function revertImage(currentImg){
 
-	mainImage.src = "images/" + current + ".JPG";
+	mainImage.src = "images/" + current + ".jpg";
 	currentImg.style.opacity = "0.5"
 
 	document.getElementById('title').innerHTML = titles[0];	
@@ -187,7 +187,7 @@ function newPic(){
 }
 	
 	// the image src is then changed to the current value
-	document.getElementById("mainimg").src = "images/" + current + ".JPG";
+	document.getElementById("mainimg").src = "images/" + current + ".jpg";
 	changeThumbsForward();    
 }
 
@@ -241,7 +241,7 @@ function prevPic(){
 			changeTitle();	
 		}
 
-	document.getElementById("mainimg").src = "images/" + current + ".JPG";
+	document.getElementById("mainimg").src = "images/" + current + ".jpg";
 }
 
 
